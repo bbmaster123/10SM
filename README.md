@@ -1,4 +1,4 @@
-https://github.com/bbmaster123/10SM/blob/main/build-258.png
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/build-258.png"><img src="https://github.com/bbmaster123/10SM/blob/main/build-258.png" width="100%" height="100%" style="max-width: 100%;"></a>
 
 # 10SM
 Native Windows 10 Start Menu for Windows 11
