@@ -1,7 +1,7 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/build-258.png"><img src="https://github.com/bbmaster123/10SM/blob/main/build-258.png" width="100%" height="100%" style="max-width: 100%;"></a>
 
 # 10SM
-Native Windows 10 Start Menu for Windows 11
+Native Windows 10 Start Menu/Fullscreen Start for Windows 11
 
 *This is still experimental and while I have gotten it to install/uninstall several times in my VM, I cannot guarantee this will work flawlessly on your system.
 
