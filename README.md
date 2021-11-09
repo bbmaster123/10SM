@@ -24,7 +24,7 @@ Resolved Issues:
 - Tray icons should work now
 
 Discoveries:
-Windows 10 notification center/action center can be man restorable and mostly functional, but I am not currently working on it. Please comment if this interests you
+Windows 10 notification center/action center can be made restorable and mostly functional, but I am not currently working on it. Please comment if this interests you
 
 
 the next thing I want to tackle is the slow exit, this wasn't a problem before Microsoft disabled the Windows 10 Start Menu in the earlier pre-release builds. 
