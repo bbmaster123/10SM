@@ -1,43 +1,30 @@
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/build-258.png"><img src="https://github.com/bbmaster123/10SM/blob/main/build-258.png" width="100%" height="100%" float="left" style="max-width: 100%"></a>
-<a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/start-fullscreen.png"><img src="https://github.com/bbmaster123/10SM/blob/main/start-fullscreen.png" width="100%" height="100%" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/Start-Menu-build-282"><img src="https://github.com/bbmaster123/10SM/blob/main/Start-Menu-build-282.png" width="100%" height="100%" float="left" style="max-width: 100%"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/Start-Fullscreen.png"><img src="https://github.com/bbmaster123/10SM/blob/main/Start-Fullscreen.png" width="100%" height="100%" style="max-width: 100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/10NC.png"><img src="https://github.com/bbmaster123/10SM/blob/main/10NC.png" width="100%" height="100%" style="max-width: 100%;"></a>
 # 10SM
 Native Windows 10 Start Menu/Fullscreen Start for Windows 11
 
-*This is still experimental and while I have gotten it to work on my system, I cannot guarantee this will work flawlessly on your system.
-
-Progress has been made since my last attempt. Unfortunately, my scripting skills aren't at master level and previously received a lot of negativity, so instead of a self extracting exe, I made this repo so others can improve and/or fork this. I also don't have a lot of free time at this moment, but perhaps soon I can get back to this.
-
+*This is still experimental, and while I have gotten it to work on my system, I cannot guarantee this will work flawlessly on your system.
 
 Manual Install Instructions
 
-1. Take ownership of the following files/folders and rename each so they end with .BACKUP
-
-C:\Windows\ShellExperiences
-C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy
-C:\Windows\SystemResources\Windows.UI.ShellCommon\Windows.UI.ShellCommon.pri
-C:\Windows\SystemResources\Windows.UI.ShellCommon\pris\Windows.UI.ShellCommon.en-us.pri
-C:\Windows\System32\AppResolver.dll
-C:\Windows\System32\StartTileData.dll
-C:\Windows\System32\TileDataRepository.dll
-
-2. Replace the above with the files/folders of the same name from the leaked build. you will need to kill startmenuexperiencehost.exe to do so.
-3. Install registry entry
-4. Restart Explorer
+1. Backup and replace files with the ones in the "Files" directory. You will need to take ownership of these files, and also kill startmenuexperiencehost.exe and shellhost.exe to do this.
+2. Install registry entry
+3. Restart Explorer/sign out
 
 Known issues:
-Start menu is slow to exit
-- Tiles can only be pinned by drag and drop from start menu, or from pin to start from outside the start menu
+- Start menu is slow to exit
+- Tiles can only be pinned by drag and drop from start menu, or from pin to start outside the start menu
 - Tiles can only be unpinned from outside the start menu, or by unpinning an entire group from inside the start menu
-- Tiles may not have an icon until after restarting explorer.exe or rebooting
-- Tray icons do not work on left click when using windows 11 taskbar. If using windows 10 taskbar with windows 10 flyouts, clock and sound work will work. restoring the 2 files in the SystemResources folder fixes this, but breaks right click in start menu.
 
 Resolved Issues:
-pinning from outside start menu now works
+- pinning from outside start menu now works
+- Tray icons should work now
 
 Discoveries:
-Windows 10 notification center is restorable and mostly functional with both taskbars, but I am not currently working on it. Please comment if this interests you
+Windows 10 notification center/action center can be man restorable and mostly functional, but I am not currently working on it. Please comment if this interests you
 
-decompiling both sets of .pri files, I can now see the source code, and can see what's changed between them. Haven't gotten to recompiling or testing yet, still unsure how to compile a pri file. hopefully, by merging the codebases I can create a single file that works for both the start menu and tray icons
+
+the next thing I want to tackle is the slow exit, this wasn't a problem before Microsoft disabled the Windows 10 Start Menu in the earlier pre-release builds. 
 
 cheers everyone!
