@@ -17,6 +17,7 @@ Known issues:
 - Tiles can only be pinned by drag and drop from start menu, or from pin to start outside the start menu
 - Tiles can only be unpinned from outside the start menu, or by unpinning an entire group from inside the start menu
 - old scripts no longer work, use them as a template if needed
+- right click on file explorer, and Microsoft Edge now crashes the start menu. tradeoff for working network icons for now.
 
 Resolved Issues:
 - pinning from outside start menu now works
