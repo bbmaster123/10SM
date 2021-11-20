@@ -8,7 +8,7 @@ Native Windows 10 Start Menu/Fullscreen Start for Windows 11
 
 Manual Install Instructions
 
-1. Backup and replace files with the ones in the "Files" directory. You will need to take ownership of these files, and also kill startmenuexperiencehost.exe and shellhost.exe to do this.
+1. Backup and replace files with the ones in the "Files" directory. You will need to take ownership of these files, and also kill startmenuexperiencehost.exe to do this.
 2. Install registry entry
 3. Restart Explorer/sign out
 
