@@ -21,6 +21,7 @@ Known issues:
 Resolved Issues:
 - pinning from outside start menu now works
 - Tray icons should work now
+- right clicking no longer causes the menu to crash
 
 Discoveries:
 Windows 10 notification center/action center can be made restorable and mostly functional, but I am not currently working on it. Please comment if this interests you
