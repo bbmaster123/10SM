@@ -3,8 +3,9 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/10NC.png"><img src="https://github.com/bbmaster123/10SM/blob/main/10NC.png" width="100%" height="100%" style="max-width: 100%;"></a>
 # 10SM
 Native Windows 10 Start Menu/Fullscreen Start for Windows 11
+Tested on build .348
 
-*This is still experimental, and while I have gotten it to work on my system, I cannot guarantee this will work flawlessly on your system.
+*This is still experimental, please proceed with caution.
 
 Manual Install Instructions
 
@@ -14,19 +15,16 @@ Manual Install Instructions
 
 Known issues:
 - Start menu is slow to exit
-- Tiles can only be pinned by drag and drop from start menu, or from pin to start outside the start menu
-- Tiles can only be unpinned from outside the start menu, or by unpinning an entire group from inside the start menu
-- old scripts no longer work, use them as a template if needed
 
 Resolved Issues:
-- pinning from outside start menu now works
+- pinning/unpinning works correctly
 - Tray icons should work now
 - right clicking no longer causes the menu to crash
 
 Discoveries:
-Windows 10 notification center/action center can be made restorable and mostly functional, but I am not currently working on it. Please comment if this interests you
+Windows 10 notification center/action center can be made restorable and mostly functional, but I am not currently working on it. Please comment if this interests you!
 
 
-the next thing I want to tackle is the slow exit, this wasn't a problem before Microsoft disabled the Windows 10 Start Menu in the earlier pre-release builds. 
+the next thing I want to tackle is the slow exit, I seem to have narrowed down the cause to windows.ui.xaml.dll, where it is definitely timing out trying to find some AcivatibleClassID, but that's as far as I've gotten...
 
 cheers everyone!
