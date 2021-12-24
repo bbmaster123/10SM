@@ -2,12 +2,15 @@
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/start-fullscreen.png"><img src="https://github.com/bbmaster123/10SM/blob/main/start-fullscreen.png" width="100%" height="100%" style="max-width: 100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/bbmaster123/10SM/blob/main/10NC.png"><img src="https://github.com/bbmaster123/10SM/blob/main/10NC.png" width="100%" height="100%" style="max-width: 100%;"></a>
 # 10SM
-Native Windows 10 Start Menu/Fullscreen Start for Windows 11
+<b>Native Windows 10 Start Menu/Fullscreen Start for Windows 11</b>
 
 Tested on build .376
 
 <i>*While this works right now, it may or may not continue to work in the future. More on this below
+
 *Installing the files required to restore the start menu requires modifying system files, please proceed with caution</i>
+
+</br>
 
 <b>Manual Install Instructions</b>
 
