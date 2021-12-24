@@ -39,6 +39,6 @@ The thread hangs, the system tells startmenuexperiencehost.exe to destroy the ev
 The reason I believe the animation is broken right now is that it relies on WRL, or Windows Runtime Library https://docs.microsoft.com/en-us/cpp/cppcx/wrl/windows-runtime-cpp-template-library-wrl?view=msvc-170 but in windows 11, you need to invoke the animation using WinRT https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/
 Or at least all of this is as best as I can understand it at the moment! I have no idea at the moment how I would fix this. 
 
-Progress on this will be slow on my end for the next few weeks at least as I am currently in the middle of a lot of real life things at the moment that will be taking my attention away for a while, but that doesn't mean I am not going to post any progress reports at all, so keep checking back occasionally! 
+Progress on this will be slow on my end for the next few weeks at least, as I am currently in the middle of a lot of real life things at the moment that will be taking my attention away for a while. But that doesn't mean I am not going to post any progress reports at all, so keep checking back occasionally! 
 
 cheers everyone!
