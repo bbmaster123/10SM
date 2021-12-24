@@ -4,28 +4,38 @@
 # 10SM
 Native Windows 10 Start Menu/Fullscreen Start for Windows 11
 
-Tested on build .348
+Tested on build .376
 
-*This is still experimental, please proceed with caution.
+<i>*While this works right now, it may or may not continue to work in the future. More on this below
+*Installing the files required to restore the start menu requires modifying system files, please proceed with caution</i>
 
-Manual Install Instructions
+<b>Manual Install Instructions</b>
 
-1. Backup and replace files with the ones in the "Files" directory. You will need to take ownership of these files, and also kill startmenuexperiencehost.exe to do this.
+1. Backup and replace files with the ones in the "Files" directory. You will need to take ownership of these files, as well as kill startmenuexperiencehost.exe to do this.
 2. Install registry entry
 3. Restart Explorer/sign out
 
-Known issues:
+<i>*Be sure not to miss any files. The most common bugs when when failing to correctly replace all files are:</i>
+ - Right click crashing the start menu
+ - Start Menu not working at all
+ - Tray icons not working
+ 
+<b>Known issues:</b>
 - Start menu is slow to exit
 
-Resolved Issues:
-- pinning/unpinning works correctly
-- Tray icons should work now
-- right clicking no longer causes the menu to crash
 
-Discoveries:
+
+<b>Discoveries:</b>
+
 Windows 10 notification center/action center can be made restorable and mostly functional, but I am not currently working on it. Please comment if this interests you!
 
 
-the next thing I want to tackle is the slow exit, I seem to have narrowed down the cause to windows.ui.xaml.dll, where it is definitely timing out trying to find some AcivatibleClassID, but that's as far as I've gotten...
+the next thing I want to tackle is the slow exit. I've been probing startmenuexperiencehost.exe and what I've found is that on exit, the thread times out waiting for a broken xaml animation effect called ExpressionAnimantion https://docs.microsoft.com/en-us/uwp/api/windows.ui.composition.expressionanimation?view=winrt-22000
+The thread hangs, the system tells startmenuexperiencehost.exe to destroy the event, and the menu exits without technically crashing. 
+
+The reason I believe the animation is broken right now is that it relies on WRL, or Windows Runtime Library https://docs.microsoft.com/en-us/cpp/cppcx/wrl/windows-runtime-cpp-template-library-wrl?view=msvc-170 but in windows 11, you need to invoke the animation using WinRT https://docs.microsoft.com/en-us/windows/uwp/cpp-and-winrt-apis/
+Or at least all of this is as best as I can understand it at the moment! I have no idea at the moment how I would fix this. 
+
+Progress on this will be slow on my end for the next few weeks at least as I am currently in the middle of a lot of real life things at the moment that will be taking my attention away for a while, but that doesn't mean I am not going to post any progress reports at all, so keep checking back occasionally! 
 
 cheers everyone!
