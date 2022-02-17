@@ -4,7 +4,7 @@
 # 10SM
 <b>Native Windows 10 Start Menu/Fullscreen Start for Windows 11</b>
 
-Tested on build 22000.527
+Tested on build 22000.527 &amp; 22557
 
 <i>*While this works right now, it may or may not continue to work in future versions of Windows 11
 
