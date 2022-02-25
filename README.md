@@ -4,14 +4,18 @@
 # 10SM
 <b>Native Windows 10 Start Menu/Fullscreen Start for Windows 11</b>
 
-Tested on build 22000.527 &amp; 22557
+Tested on build 22000.527 &amp; 22557 </br> </br>
+<i>*ExplorerPatcher has implemented the Windows 10 start menu as a feature in a recent update. I encourage both users and non users of 10SM to check it out here: https://github.com/valinet/ExplorerPatcher/</i>
 
 <i>*While this works right now, it may or may not continue to work in future versions of Windows 11
 
 *Installing the files required to restore the start menu requires manually replacing system files, please proceed with caution</i>
 
-</br>
 
+
+
+
+</br>
 <b>Manual Install Instructions</b>
 
 1. Backup and replace files with the ones in the "Files" directory. You will need to take ownership of these files, as well as kill startmenuexperiencehost.exe to do this.
@@ -32,8 +36,6 @@ Tested on build 22000.527 &amp; 22557
 
 - Windows 10 notification center/action center can be made restorable and mostly functional, but I am not currently working on it. It has the same slow exit as the start menu, so by fixing the start menu, it should fix this too. Please comment if this interests you!
 
-<b>Notes:</b>
 
-the next thing I want to tackle is the slow exit. This seems to be quite a complicated issue, so if you have expertise here feel free to weigh in! Otherwise, progress on this issue will be slow on my end for the next few weeks to months, as I am currently in the middle of a lot of real life things at the moment that will be taking my attention away for a while. But that doesn't mean I am not going to post any progress reports at all, so keep checking back occasionally! 
 
 cheers everyone!
