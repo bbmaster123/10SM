@@ -7,7 +7,7 @@
 Tested on build 22000.527 &amp; 22557 </br> </br>
 <i>*ExplorerPatcher has implemented the Windows 10 start menu as a feature in a recent update. I encourage both users and non users of 10SM to check it out here: https://github.com/valinet/ExplorerPatcher </br>
 Please remember to remove 10SM before doing so to avoid any potential issues
-/</i>
+</i>
 
 <i>*While this works right now, it may or may not continue to work in future versions of Windows 11
 
