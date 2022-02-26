@@ -5,7 +5,9 @@
 <b>Native Windows 10 Start Menu/Fullscreen Start for Windows 11</b>
 
 Tested on build 22000.527 &amp; 22557 </br> </br>
-<i>*ExplorerPatcher has implemented the Windows 10 start menu as a feature in a recent update. I encourage both users and non users of 10SM to check it out here: https://github.com/valinet/ExplorerPatcher/</i>
+<i>*ExplorerPatcher has implemented the Windows 10 start menu as a feature in a recent update. I encourage both users and non users of 10SM to check it out here: https://github.com/valinet/ExplorerPatcher </br>
+Please remember to remove 10SM before doing so to avoid any potential issues
+/</i>
 
 <i>*While this works right now, it may or may not continue to work in future versions of Windows 11
 
