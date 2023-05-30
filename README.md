@@ -13,7 +13,7 @@
 # 
 <p><b>Manual Install Instructions</b></br>
 <i>*Installing the files required to restore the start menu requires manually replacing system files, please proceed with caution
- </br>*While this works right now, it may or may not continue to work in future versions of Windows 11</i></p>
+ </br>*While this worked on older builds, it may or may not continue to work more recent versions of Windows 11</i></p>
  
 1. Take ownership of required files
 2. Backup and replace files with the ones in the "Files" directory; you will need to kill startmenuexperiencehost.exe to do this.
@@ -30,5 +30,7 @@
 
 <b>Optional:</b>
 - add dword UseLiteLayout and set to 1 under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Center\ 
-This re-enables Windows 10 Action Center and forces it and the start menu to use light theme. Has slow exit bug, possible other unknown bugs. Working up to at least build 25346
+
+This re-enables Windows 10 Action Center and forces it and the start menu to use light theme. Has slow exit bug, possible other unknown bugs. Working up to at least build 25346.
+
 cheers everyone!
