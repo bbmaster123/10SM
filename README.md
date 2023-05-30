@@ -13,7 +13,7 @@
 # 
 <p><b>Manual Install Instructions</b></br>
 <i>*Installing the files required to restore the start menu requires manually replacing system files, please proceed with caution
- </br>*While this worked on older builds, it may or may not continue to work more recent versions of Windows 11</i></p>
+ </br>*While this worked on older builds, it may or may not continue to work on more recent versions of Windows 11</i></p>
  
 1. Take ownership of required files
 2. Backup and replace files with the ones in the "Files" directory; you will need to kill startmenuexperiencehost.exe to do this.
