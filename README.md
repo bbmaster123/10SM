@@ -6,10 +6,9 @@
 ## Native Windows 10 Start Menu/Fullscreen Start for Windows 11
 #### Tested on build 22000.652 &amp; 22610
 # 
-###### <p>Now that I have a little more free time, I have started to revisit this project. Initally, I wanted to solve the exit delay issue before working on anything less important. Because of this, my first version of 10SM was done entirely with BAT scripting, before dropping that concept in favour of manual installation. I am also a novice at developing windows apps, although I know some HTML, CSS, Java, and PHP from when I was learning to make self hosted websites, so I'm not starting at 0 thankfully. Unfortunately, implementing a fix for the exit delay in 10SM is still beyond my level of understanding, so I still have some learning to do! </br> </br> Going forward, I will release a GUI (coming soon) capable of installing and uninstalling the start menu and changing start menu settings as a learning experience. This will get me familiar with Visual Studio and creating GUI interfaces, but it wont be clean, ideal code yet, and it wont solve the exit delay, sorry. I'll have to work up to that.</br> </br> As well, due to multiple requests, I will integrate the windows 10 action center into 10SM for those running the stable releases shortly after the GUI is posted. </br> </br>-bbmaster123</br>May 4 2022</p>
 
 #
-###### <p><i>*ExplorerPatcher has implemented the Windows 10 start menu as a feature in a recent update. I encourage both users and non users of 10SM to check it out here: https://github.com/valinet/ExplorerPatcher </br>Please remember to remove 10SM before doing so to avoid any potential issues</i></p>
+###### <p><i>*ExplorerPatcher has implemented the Windows 10 start menu. I encourage both users and non users of 10SM to check it out here: https://github.com/valinet/ExplorerPatcher </br>Please remember to remove 10SM before doing so to avoid any potential issues</i></p>
 
 # 
 <p><b>Manual Install Instructions</b></br>
@@ -29,4 +28,7 @@
 <b>Known issues:</b>
 - Start menu is slow to exit
 
+<b>Optional:</b>
+- add dword UseLiteLayout and set to 1 under HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Control Center\ 
+This re-enables Windows 10 Action Center and forces it and the start menu to use light theme. Has slow exit bug, possible other unknown bugs. Working up to at least build 25346
 cheers everyone!
